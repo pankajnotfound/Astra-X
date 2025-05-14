@@ -1,35 +1,11 @@
-'use client';
-import React, { useEffect, useState } from 'react'
 import HeroText from './HeroText'
 import HeroVisuals from './HeroVisuals'
 
 const HeroMain = () => {
 
-    const [heroImageVisible, setHeroImageVisible] = useState(false);
-    const heroImagesAnimationThreshold = 120;
-
-    useEffect(() => {
-        const scrollValueUpdater = () => {
-            const scrollValue = window.scrollY;
-            const isHeroImageVisible = scrollValue > heroImagesAnimationThreshold;
-            if(isHeroImageVisible){
-                setHeroImageVisible(true);
-            }  
-            else{
-                console.log(scrollValue);
-                setHeroImageVisible(false);
-            }
-        };
-        window.addEventListener('scroll', scrollValueUpdater);
-
-        return () => {
-            window.removeEventListener('scroll', scrollValueUpdater)
-        };
-    }, []);
-
   return (
-    <div className='w-full h-fit flex justify-center px-20 py-10 gap-0'>
-        <HeroText imageVisible = {heroImageVisible} />
+    <div className='w-full h-fit flex justify-center px-5 py-31 gap-0 sm:px-20  lg:scale-80 md:px-0 lg:py-10 sxl:scale-100 '>
+        <HeroText />
         <HeroVisuals  />
     </div>
   )

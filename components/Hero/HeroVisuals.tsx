@@ -6,7 +6,7 @@ import React from 'react'
 
 const HeroVisuals = () => {
   return (
-    <div className='relative flex justify-center '>
+    <div className='relative hidden justify-center lg:flex'>
         {/* Backgournd visuals */}
         <div className='overflow-hidden p-5'>
             <div className=' animate-[RotatingAnimation_10s_linear_infinite]'>
@@ -23,10 +23,10 @@ const HeroVisuals = () => {
         <div className={`absolute place-self-center`}>
             <Image src='/resources/herovisualcenter.png' alt='' width={330} height={330} />
         </div>
-        <div className={`absolute place-self-center top-10 right-[-40]`}>
+        <div className={`absolute place-self-center top-10 right-[-40] lg:right-0 sxl:right-[-40]`}>
             <Image src='/resources/herovisualtopimage.png' alt='' width={300} height={300}/>
         </div>
-        <div className={`absolute place-self-center bottom-20 left-[-40]`}>
+        <div className={`absolute place-self-center bottom-20 left-[-40] lg:left-0 sxl:left-[-40]`}>
             <Image src='/resources/herovisualbottomimage.png' alt='' width={300} height={300}/>
         </div>
     </div>
