@@ -1,4 +1,4 @@
-import { faCircle, faCircleDot, faDotCircle } from '@fortawesome/free-solid-svg-icons'
+import { faCircle } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 import React from 'react'
@@ -6,7 +6,7 @@ import React from 'react'
 
 const HeroVisuals = () => {
   return (
-    <div className='relative hidden justify-center lg:flex'>
+    <div className='relative hidden justify-center lg::scale-90 lg:flex sxl:scale-100'>
         {/* Backgournd visuals */}
         <div className='overflow-hidden p-5'>
             <div className=' animate-[RotatingAnimation_10s_linear_infinite]'>

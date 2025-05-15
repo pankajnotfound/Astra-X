@@ -10,7 +10,7 @@ const HeroText = () => {
         <div className='text-[#784afe]'>
             Hi there! Welcome to astrax
         </div>
-        <div className='text-[3rem]/13 font-bold max-w-180 text-start pt-3 pb-5 sm:text-[4.2rem]/18 lg:max-w-140'>
+        <div className='text-[3rem]/13 font-bold max-w-180 text-start pt-3 pb-5 sm:text-[4.2rem]/18 lg:w-110 lg:text-[2.9rem]/13 sxl:text-[3rem]/13 sxl:max-w-140'>
             We empower brands to reach full potential.
         </div>
         <div className='py-7 lg:py-5'>
