@@ -6,7 +6,7 @@ import BottomHeader from './BottomHeader'
 const Header = () => {
 
   return (
-    <div className=' w-full bg-white text-black flex flex-col justify-center items-center'>
+    <div className=' w-full relative bg-white text-black flex flex-col justify-center items-center'>
         <TopHeader />
         <BottomHeader />
     </div>
