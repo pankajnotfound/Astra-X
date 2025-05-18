@@ -7,12 +7,18 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 import SliderProfile from './SliderProfile';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
+import { motion } from 'framer-motion';
 
 const TestimonialSlider = () => {
   return (
-    <div className='flex gap-5 justify-center' >
+    <motion.div 
+    initial={{ opacity: 0, y: 100 }}
+    whileInView={{ opacity: 1, y: 0 }} 
+    viewport={{ once: false, amount: 0.2 }}
+    transition={{ duration: 0.8, ease: 'easeOut' }}
+    className='flex gap-5 justify-center pt-20' >
         <Image src='/resources/quote.jpeg' alt='' width={50} height={50} className='hidden w-40 h-75 lg:flex'/> 
-        <div className=' w-120 md:w-180 lg:w-120 sxl:w-200'>
+        <div className=' w-screen md:w-180 lg:w-120 sxl:w-200'>
             <Swiper
             modules={[Autoplay]}
                 slidesPerView={1}
@@ -57,7 +63,7 @@ const TestimonialSlider = () => {
             </Swiper>
         </div>
         <Image src='/resources/quote.jpeg' alt='' width={50} height={50} className=' hidden w-40 h-75 rotate-180 lg:flex'/> 
-    </div>
+    </motion.div>
   )
 }
 

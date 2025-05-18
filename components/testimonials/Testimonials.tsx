@@ -1,18 +1,15 @@
 import React from 'react'
 import TestimonialSlider from './TestimonialSlider'
+import TestimonialTop from './TestimonialTop'
+import RotatingDivider from './RotatingDivider'
+import TestimonialBottom from './TestimonialBottom'
 
 const Testimonials = () => {
   return (
-    <div className='flex flex-col gap-20'>
-        <div className='flex flex-col gap-5'>
-            <div className='text-[#784afe]'>
-                Testimonials
-            </div>
-            <div className='text-5xl font-bold'>
-                Happy users feedback
-            </div>
-        </div>
-        <TestimonialSlider />
+    <div className='flex flex-col py-10'>
+        <TestimonialTop />
+        <RotatingDivider />
+        <TestimonialBottom />
     </div>
   )
 }
