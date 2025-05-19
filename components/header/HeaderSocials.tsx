@@ -11,7 +11,6 @@ const HeaderSocials = () => {
         <div className=' border-x border-gray-200 hover:text-[#784afe] cursor-pointer'>
             <FontAwesomeIcon icon={faLinkedin} className='w-4 m-2.5 ' />
         </div>
-        
     </div>
   )
 }

@@ -18,10 +18,10 @@ const Cards = () => {
         whileHover={{ y: -5}}
         viewport={{ once: false, amount: 0.1 }}
         transition={{ duration: 0.5, ease: 'easeOut' }} >
-          <div className='relative w-full p-10 lg:w-fit lg:p-0 rounded-lg flex flex-col overflow-hidden justify-center items-center bg-white '>
+          {/* <div className='relative w-full p-10 lg:w-fit lg:p-0 rounded-lg flex flex-col overflow-hidden justify-center items-center bg-white '>
             <Image src='/resources/expertise4.png' alt='' width={200} height={200} className='hidden h-162 w-80 lg:flex' />
             <p className='flex justify-center w-full text-3xl font-bold bottom-10 lg:w-50 lg:absolute'>Social Media Marketing</p>
-          </div>
+          </div> */}
         </motion.div>
         
     </div>

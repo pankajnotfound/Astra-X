@@ -1,15 +1,11 @@
 'use client';
+import { motion } from 'framer-motion'
 import Image from 'next/image'
 import React from 'react'
-import { useScrollValues } from '../../context/ScrollValueInfo'
-import { motion } from 'framer-motion';
 
-const LeftSection = () => {
-
-    const{ aboutUsImageVisible, aboutUsCardVisible } = useScrollValues();
-
+const ContentLeft = () => {
   return (
-    <div className='relative w-fit flex flex-col content-center sm:p-4 gap-6'>
+    <div className='relative w-fit flex flex-col content-center sm:p-4 gap-6 '>
       <motion.div
       initial={{ opacity: 0, y: 100 }} 
       whileInView={{ opacity: 1, y: 0 }} 
@@ -34,4 +30,4 @@ const LeftSection = () => {
   )
 }
 
-export default LeftSection
+export default ContentLeft

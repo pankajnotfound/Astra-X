@@ -1,7 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faXTwitter, faBehance, faYoutube, faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faXTwitter, faBehance, faYoutube, faFacebookF, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const FooterBottom = () => {
   return (
@@ -15,16 +16,10 @@ const FooterBottom = () => {
             </ul>
             <div className='flex gap-3 '>
                 <div className=' flex opacity-70 hover:opacity-100 cursor-pointer'>
-                    <FontAwesomeIcon icon={faFacebookF} className='w-2' />
+                    <FontAwesomeIcon icon={faEnvelope} className='w-3' />
                 </div>
                 <div className=' flex opacity-70 hover:opacity-100 cursor-pointer'>
-                    <FontAwesomeIcon icon={faXTwitter} className='w-3' />
-                </div>
-                <div className=' flex opacity-70 hover:opacity-100 cursor-pointer'>
-                    <FontAwesomeIcon icon={faBehance} className='w-3' />
-                </div>
-                <div className=' flex opacity-70 hover:opacity-100 cursor-pointer'>
-                    <FontAwesomeIcon icon={faYoutube} className='w-3' />
+                    <FontAwesomeIcon icon={faLinkedin} className='w-3' />
                 </div>
             </div>
         </div>

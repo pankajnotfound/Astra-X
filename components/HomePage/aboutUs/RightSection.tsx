@@ -1,7 +1,7 @@
 'use client';
 import React from 'react'
 import AboutUsElement from './AboutUsElement'
-import { useScrollValues } from '../../context/ScrollValueInfo'
+import { useScrollValues } from '../../../context/ScrollValueInfo'
 
 const RightSection = () => {
 

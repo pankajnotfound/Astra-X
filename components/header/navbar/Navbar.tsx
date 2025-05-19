@@ -2,16 +2,17 @@ import React from 'react'
 import NavbarElement from './NavbarElement'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
     <div className='w-fit flex p-4 justify-center items-center gap-15 font-bold text-sm'>
-        <div className='hover:text-[#784afe] p-2 transition-all duration-300 ease-in-out cursor-pointer'>
+        <Link href='/' className='hover:text-[#784afe] p-2 transition-all duration-300 ease-in-out'>
             HOME
-        </div>
-        <div className='hover:text-[#784afe] transition-all duration-300 ease-in-out cursor-pointer'>
+        </Link>
+        <Link href='/aboutus' className='hover:text-[#784afe] transition-all duration-300 ease-in-out'>
             ABOUT US
-        </div>
+        </Link>
         <div className='relative group hover:text-[#784afe] transition-all duration-300 ease-in-out cursor-pointer'>
             <div className='flex gap-1 items-center '>
                 <p>SERVICES</p>
