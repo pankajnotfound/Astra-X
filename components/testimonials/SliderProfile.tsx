@@ -4,7 +4,6 @@ import React from 'react'
 type propsType ={
     image : string;
     name : string;
-    address : string;
 }
 
 const SliderProfile = (props : propsType) => {
@@ -15,7 +14,6 @@ const SliderProfile = (props : propsType) => {
         </div>
         <div className='flex flex-col text-sm p-1 gap-1 text-start'>
             <p className='font-semibold'> {props.name} </p>
-            <p className='text-gray-500'> {props.address} </p>
         </div>
     </div>
   )

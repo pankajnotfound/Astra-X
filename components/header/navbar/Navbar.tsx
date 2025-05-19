@@ -10,7 +10,7 @@ const Navbar = () => {
             HOME
         </div>
         <div className='hover:text-[#784afe] transition-all duration-300 ease-in-out cursor-pointer'>
-            ABOUT
+            ABOUT US
         </div>
         <div className='relative group hover:text-[#784afe] transition-all duration-300 ease-in-out cursor-pointer'>
             <div className='flex gap-1 items-center '>
@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
         <div className='relative group hover:text-[#784afe] transition-all duration-300 ease-in-out cursor-pointer'>
             <div className='flex gap-1 items-center '>
-                <p>BLOG</p>
+                <p>PROJECTS</p>
                 <FontAwesomeIcon icon={faAngleDown} className='w-2.5 text-[#784afe]'/>
             </div>
             <div className="absolute left-0 top-full h-20 w-full pointer-events-auto group-hover:block hidden"></div>

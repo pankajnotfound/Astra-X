@@ -29,9 +29,7 @@ const FooterBottom = () => {
             </div>
         </div>
         <div className='flex flex-wrap text-wrap gap-1.5 justify-center'>
-            <p className='opacity-60 font-normal'>Copyright & design by </p>
-            <Link href={'/'}>©Alithemes</Link>
-            <p className='opacity-60 font-normal'>2025, All Rights Reserved</p>
+            <p className='opacity-60 font-normal'>© All Rights Reserved 2025 by The Pixel Mind.</p>
         </div>
     </div>
   )

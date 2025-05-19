@@ -22,7 +22,7 @@ const WhyUsRightImages = () => {
           viewport={{ once: false, amount: 0.2 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
-          <Image src='/resources/whyUs2.png' alt='' width={200} height={200} className='w-full'/>
+          <Image src='/resources/aboutus.png' alt='' width={200} height={200} className='w-full'/>
         </motion.div>
         
     </div>

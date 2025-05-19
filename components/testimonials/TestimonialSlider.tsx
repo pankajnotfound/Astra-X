@@ -41,8 +41,8 @@ const TestimonialSlider = () => {
                             <FontAwesomeIcon icon={faStar} className='text-[#784afe]' />
                             <FontAwesomeIcon icon={faStar} className='text-[#784afe]' />
                         </div>
-                        <p className='w-full px-5 text-2xl font-bold sxl:px-25'>" Unrivaled brilliance surpassing all others. Highly recommended for novices and experts alike. We will hire them for sure. "</p>
-                        <SliderProfile image='/resources/slideravatar.png' name='KRISTIN WATSON' address='Head Of Idea, Treve LLC ' />
+                        <p className='w-full px-5 text-2xl font-bold sxl:px-25'>" Creating a landing page with clear and targeted messaging was a crucial step in increasing conversions. Together with the Polio team, we have compiled a new product page. "</p>
+                        <SliderProfile image='/resources/slideravatar.png' name='PRITHVI CHAUHAN' />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide >
@@ -55,8 +55,8 @@ const TestimonialSlider = () => {
                             <FontAwesomeIcon icon={faStar} className='text-[#784afe]' />
                             <FontAwesomeIcon icon={faStar} className='text-[#784afe]' />
                         </div>
-                        <p className='w-full px-5 text-2xl font-bold sxl:px-25'>" Unrivaled brilliance surpassing all others. Highly recommended for novices and experts alike. We will hire them for sure. "</p>
-                        <SliderProfile image='/resources/slideravatar.png' name='KRISTIN WATSON' address='Head Of Idea, Treve LLC ' />
+                        <p className='w-full px-5 text-2xl font-bold sxl:px-25'>" I am so impressed with the work done by DSTradeX! Their approach to smart savings and financial empowerment is truly game-changing. I've seen a significant improvement in my financial stability, and I'm excited about the future. Highly recommend! "</p>
+                        <SliderProfile image='/resources/slideravatar.png' name='DEEPAK SINGH' />
                     </div>
                 </SwiperSlide>
                 

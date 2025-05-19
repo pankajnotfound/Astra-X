@@ -25,7 +25,7 @@ const LeftSection = () => {
       className='relative sm:w-55 sm:absolute right-0 bottom-0 md:-right-25 md:-bottom-7 lg:right-0 lg:bottom-0 sxl:-right-25 sxl:-bottom-7 rounded-md overflow-hidden shadow-[0px_0px_20px_1px_gray] '>
         <div className={` w-full flex flex-col bg-white justify-center items-center gap-4 p-8 `}>
           <Image src='/resources/coloredtrophy.png' alt='' width={80} height={150} />
-          <p className='text-7xl font-bold '>6248</p>
+          <p className='text-7xl font-bold '>120+</p>
           <p className='text-md text-gray-500 font-semibold'>Projects completed</p>
         </div>
       </motion.div>

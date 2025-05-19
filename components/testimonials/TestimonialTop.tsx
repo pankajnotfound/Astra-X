@@ -9,7 +9,7 @@ const TestimonialTop = () => {
                 Testimonials
             </div>
             <div className='text-5xl font-bold'>
-                Happy users feedback
+                Our clients feedback is important for us
             </div>
         </div>
         <TestimonialSlider />
