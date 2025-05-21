@@ -1,12 +1,19 @@
+'use client';
 import { faCircle } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { motion } from 'framer-motion'
 import Image from 'next/image'
 import React from 'react'
 
 
 const HeroVisuals = () => {
   return (
-    <div className='relative hidden justify-center lg::scale-90 lg:flex sxl:scale-100'>
+    <motion.div 
+    initial={{ opacity: 0, scale: 0 }}
+    whileInView={{ opacity: 1, scale: 1 }}
+    viewport={{ once: false, amount: 0.1 }}
+    transition={{ duration: 0.4, ease: 'easeOut' }}
+    className='relative hidden justify-center lg::scale-90 lg:flex sxl:scale-100'>
         {/* Backgournd visuals */}
         <div className='overflow-hidden p-5'>
             <div className=' animate-[RotatingAnimation_10s_linear_infinite]'>
@@ -29,7 +36,7 @@ const HeroVisuals = () => {
         <div className={`absolute place-self-center bottom-20 left-[-40] lg:left-0 sxl:left-[-40]`}>
             <Image src='/resources/herovisualbottomimage.png' alt='' width={300} height={300}/>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

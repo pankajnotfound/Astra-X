@@ -9,7 +9,7 @@ import { faBitcoin } from '@fortawesome/free-brands-svg-icons'
 const TestimonialBottom = () => {
   return (
     <div>
-        <div className='flex flex-col gap-5'>
+        <div className='flex flex-col gap-5 pt-20'>
             <div className='text-[#784afe]'>
                 OUR PROJECTS
             </div>

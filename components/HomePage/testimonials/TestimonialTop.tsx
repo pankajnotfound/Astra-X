@@ -3,8 +3,8 @@ import TestimonialSlider from './TestimonialSlider'
 
 const TestimonialTop = () => {
   return (
-    <div>
-        <div className='flex flex-col gap-5'>
+    <div className='pb-20'>
+        <div className='flex flex-col gap-5 text-center'>
             <div className='text-[#784afe]'>
                 Testimonials
             </div>

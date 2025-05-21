@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const LetsTalk = () => {
   return (
-    <div className='w-full h-screen relative flex flex-col text-white overflow-hidden gap-5 justify-center items-center bg-[url(/resources/projectsection.png)] bg-center lg:h-[80vh] xl:h-[80vh] '>
+    <div className='w-full h-screen relative flex flex-col text-white overflow-hidden text-center gap-5 justify-center items-center bg-[url(/resources/projectsection.png)] bg-center bg-cover bg-no-repeat lg:h-[80vh] xl:h-[80vh] '>
         <div className=' absolute top-0 left-0 w-full h-full bg-linear-to-b from-black/50 to-[#784afe] mix-blend-lighten'></div>
         <FontAwesomeIcon icon={faComments} className='z-10 !w-15 !h-15' />
         <p className='z-10 text-5xl font-bold' >Have a project in mind?</p>

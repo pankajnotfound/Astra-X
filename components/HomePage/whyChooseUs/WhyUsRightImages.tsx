@@ -10,7 +10,7 @@ const WhyUsRightImages = () => {
           className='z-10 w-full h-full'
           initial={{ opacity: 0, y: 100 }} 
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.2 }}
+          viewport={{ once: false, amount: 0.1 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
           <Image src='/resources/whyUs.png' alt='' width={200} height={200} className=' w-full rounded-lg md:w-[55%] lg:w-[80%] sxl:w-[60%] '/>
@@ -19,7 +19,7 @@ const WhyUsRightImages = () => {
           className='z-5 right-35 -bottom-40 w-full overflow-hidden rounded-lg md:w-[45%] md:absolute lg:bottom-0 lg:right-10 sxl:-bottom-10 sxl:right-25'
           initial={{ opacity: 0, y: 100 }} 
           whileInView={{ opacity: 1, y: 0 }} 
-          viewport={{ once: false, amount: 0.2 }}
+          viewport={{ once: false, amount: 0.1 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
           <Image src='/resources/aboutus.png' alt='' width={200} height={200} className='w-full'/>

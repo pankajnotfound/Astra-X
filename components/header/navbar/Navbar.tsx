@@ -20,11 +20,11 @@ const Navbar = () => {
             </div>
             <div className="absolute left-0 top-full h-20 w-full pointer-events-auto group-hover:block hidden"></div>
             <div className='z-50 opacity-0 absolute min-w-75 top-17 bg-white flex flex-col pointer-events-none pt-3 gap-3 shadow-[0_0_10px_rgba(0,0,0,0.2)] rounded-md group-hover:pointer-events-auto group-hover:opacity-100 transition-all duration-300 ease-in-out'>
-                <NavbarElement image = '/resources/ideaicon.png' text = 'All Services' />
-                <NavbarElement image = '/resources/statistics.png' text = 'Search Engine Optimiazation' />
-                <NavbarElement image = '/resources/connect.png' text = 'Social Media Management' />
-                <NavbarElement image = '/resources/trophy.png' text = 'Targeted Digital Marketing' />
-                <NavbarElement image = '/resources/ideawindow.png' text = 'Creative Content Creation' />
+                <NavbarElement image = '/resources/ideaicon.png' text = 'All Services' link='/services' />
+                <NavbarElement image = '/resources/statistics.png' text = 'Web Development' link='/services/web-development' />
+                <NavbarElement image = '/resources/connect.png' text = 'App Development' link='/services/app-development' />
+                <NavbarElement image = '/resources/trophy.png' text = 'UI/UX Design' link='/services/uiux-design' />
+                <NavbarElement image = '/resources/ideawindow.png' text = 'SEO Services' link='/services/seo-services' />
             </div>
         </div>
         <div className='relative group hover:text-[#784afe] transition-all duration-300 ease-in-out cursor-pointer'>
@@ -34,8 +34,8 @@ const Navbar = () => {
             </div>
             <div className="absolute left-0 top-full h-20 w-full pointer-events-auto group-hover:block hidden"></div>
             <div className='z-50 opacity-0 absolute min-w-75 top-17 bg-white flex flex-col pointer-events-none pt-3 gap-3 shadow-[0_0_10px_rgba(0,0,0,0.2)] rounded-md group-hover:pointer-events-auto group-hover:opacity-100 transition-all duration-300 ease-in-out'>
-                <NavbarElement image = '/resources/blog.png' text = 'Blog' />
-                <NavbarElement image = '/resources/blogdetail.png' text = 'Blog Details' />
+                <NavbarElement image = '/resources/blog.png' text = 'Blog' link='/' />
+                <NavbarElement image = '/resources/blogdetail.png' text = 'Blog Details' link='/' />
             </div>
         </div>
         <div className='relative group hover:text-[#784afe] transition-all duration-300 ease-in-out cursor-pointer'>
@@ -45,10 +45,10 @@ const Navbar = () => {
             </div>
             <div className="absolute left-0 top-full h-20 w-full pointer-events-auto group-hover:block hidden"></div>
             <div className='z-50 opacity-0 absolute min-w-75 top-17 bg-white flex flex-col pointer-events-none pt-3 gap-3 shadow-[0_0_10px_rgba(0,0,0,0.2)] rounded-md group-hover:pointer-events-auto group-hover:opacity-100 transition-all duration-300 ease-in-out'>
-                <NavbarElement image = '/resources/features.png' text = 'Features' />
-                <NavbarElement image = '/resources/pricing.png' text = 'Pricing' />
-                <NavbarElement image = '/resources/integration.png' text = 'Integrations' />
-                <NavbarElement image = '/resources/career.png' text = 'Career' />
+                <NavbarElement image = '/resources/features.png' text = 'Features' link='/' />
+                <NavbarElement image = '/resources/pricing.png' text = 'Pricing' link='/' />
+                <NavbarElement image = '/resources/integration.png' text = 'Integrations' link='/' />
+                <NavbarElement image = '/resources/career.png' text = 'Career' link='/' />
             </div>
         </div>
         <div className='hover:text-[#784afe] transition-all duration-300 ease-in-out cursor-pointer'>

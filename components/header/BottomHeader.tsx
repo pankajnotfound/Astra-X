@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Logo from './Logo'
 import Navbar from './navbar/Navbar'
 import HeaderButton from './HeaderButton'
-import { useScrollValues } from '../../context/ScrollValueInfo'
+import { useScrollValues } from '../../data/ScrollValueInfo'
 import HamburgerMenu from './navbar/HamburgerMenu';
 
 

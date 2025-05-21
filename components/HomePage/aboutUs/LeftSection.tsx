@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image'
 import React from 'react'
-import { useScrollValues } from '../../../context/ScrollValueInfo'
+import { useScrollValues } from '../../../data/ScrollValueInfo'
 import { motion } from 'framer-motion';
 
 const LeftSection = () => {
@@ -13,7 +13,7 @@ const LeftSection = () => {
       <motion.div
       initial={{ opacity: 0, y: 100 }} 
       whileInView={{ opacity: 1, y: 0 }} 
-      viewport={{ once: false, amount: 0.5 }}
+      viewport={{ once: false, amount: 0.1 }}
       transition={{ duration: 0.5, ease: 'easeOut' }} >
         <Image src='/resources/aboutus.png' alt='' width={500} height={800} className={`rounded-xl`} />
       </motion.div>

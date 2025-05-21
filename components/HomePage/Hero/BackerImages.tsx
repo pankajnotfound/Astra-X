@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image'
 import React from 'react'
-import { useScrollValues } from '../../../context/ScrollValueInfo';
+import { useScrollValues } from '../../../data/ScrollValueInfo';
 
 const BackerImages = () => {
 
