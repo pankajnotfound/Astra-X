@@ -6,7 +6,7 @@ import Image from 'next/image'
 const Steps = () => {
   return (
     <div className='w-full flex flex-col gap-10'>
-        <div className='w-full flex gap-8'>
+        <div className='w-full flex-col flex gap-8 md:flex-row'>
             <div className='w-full flex flex-col justify-center items-start'>
                 <p className='text-2xl font-bold'>01. Content Creation</p>
                 <div className='w-full flex gap-3 justify-center items-center p-2'>
@@ -26,7 +26,7 @@ const Steps = () => {
                 <Image src='/resources/serviceStep.png' alt='' width={1000} height={1000} className='' />
             </div>
         </div>
-        <div className='w-full flex gap-8'>
+        <div className='w-full flex-col flex gap-8 md:flex-row'>
             <div className='w-full'>
                 <Image src='/resources/serviceStep.png' alt='' width={1000} height={1000} className='' />
             </div>
@@ -46,7 +46,7 @@ const Steps = () => {
                 </div>
             </div>
         </div>
-        <div className='w-full flex gap-8'>
+        <div className='w-full flex-col flex gap-8 md:flex-row'>
             <div className='w-full flex flex-col justify-center items-start'>
                 <p className='text-2xl font-bold'>01. Content Creation</p>
                 <div className='w-full flex gap-3 justify-center items-center p-2'>
@@ -66,7 +66,7 @@ const Steps = () => {
                 <Image src='/resources/serviceStep.png' alt='' width={1000} height={1000} className='' />
             </div>
         </div>
-        <div className='w-full flex gap-8'>
+        <div className='w-full flex-col flex gap-8 md:flex-row'>
             <div className='w-full'>
                 <Image src='/resources/serviceStep.png' alt='' width={1000} height={1000} className='' />
             </div>
