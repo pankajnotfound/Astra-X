@@ -13,8 +13,6 @@ const page = async ({params,}:{params : Promise<{slug:string}>}) => {
 
   if (id in servicesData ){
     const info = servicesData[id as keyof typeof servicesData] 
-    console.log(info);
-
     return (
     <div className='flex flex-col justify-center items-center'>
         <Hero info={info} />
